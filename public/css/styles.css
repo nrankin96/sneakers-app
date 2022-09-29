@@ -1,7 +1,35 @@
-.main {
-    background-image: url(/imgs/background.jpeg);
+
+
+.welcome {
+    text-align: center;
+    margin: 0px;
+    font-size: 6rem;
+    background-color: #e9e5e3;
+
+}
+
+.welcome a {
+    text-decoration: none;
 }
 
 h1 {
-    color: blue;
+    padding-top: 100px;
 }
+
+.background-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 500px;
+    background-color: #e9e5e3;
+    
+}
+
+.background-img img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 20%
+}
+
+
